@@ -60,17 +60,7 @@ This project is a **Railway Management System** designed to simulate key functio
 
 ## Project Setup
 
-### Prerequisites
 
-To run this project, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/en/) (v14 or later)
-- [MySQL](https://www.mysql.com/) (Database setup)
-- [Postman](https://www.postman.com/) (for API testing)
-- (Optional) Email service (e.g., [SendGrid](https://sendgrid.com/))
-
-
-## Project Setup
 
 ### Prerequisites
 
