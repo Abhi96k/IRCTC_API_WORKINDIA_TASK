@@ -308,4 +308,51 @@ Feel free to fork the repository and make your contributions via pull requests. 
 
 # photos of the project
 
-![Project Screenshot](./WorkIndia_Task_IRCTC/Photo/creating_database.png)
+### Screenshots of the Project
+
+#### 1. Database Creation
+![Database Creation Screenshot](./WorkIndia_Task_IRCTC/Photo/creating_database.png)
+
+Description: This screenshot showcases the creation of the database schema for the IRCTC system.
+
+---
+
+#### 2. Checking Train Availability
+![Train Availability Screenshot](./WorkIndia_Task_IRCTC/Photo/Get_Availibility.png)
+
+Description: This screenshot demonstrates how the `GET /user/availability` API is used to check train availability.
+
+---
+
+#### 3. Server Running Locally
+![Localhost Running Screenshot](./WorkIndia_Task_IRCTC/Photo/localhost_running.png)
+
+Description: The server running locally on `http://localhost:3000` as part of the project setup.
+
+---
+
+#### 4. User Login via Postman
+![Postman Login Screenshot](./WorkIndia_Task_IRCTC/Photo/Postman_login.png)
+
+Description: A Postman request to log in a user, showcasing how the login API works.
+
+---
+
+#### 5. User Registration via Postman
+![Postman Registration Screenshot](./WorkIndia_Task_IRCTC/Photo/Postman_register.png)
+
+Description: A Postman request to register a new user, demonstrating the registration functionality.
+
+---
+
+#### 6. User Database
+![User Database Screenshot](./WorkIndia_Task_IRCTC/Photo/User_database.png)
+
+Description: The structure and data stored in the `users` table of the `irctc_db` database.
+
+---
+
+#### 7. Workbench SQL View
+![Workbench SQL Screenshot](./WorkIndia_Task_IRCTC/Photo/WorkBench_SQL.png)
+
+Description: An overview of the SQL queries and table structures in MySQL Workbench.
