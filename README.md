@@ -1,7 +1,5 @@
 # IRCTC Railway Management System
 
-
-
 This project is a **Railway Management System** designed to simulate key functionalities of the IRCTC system. The system enables train seat bookings, checks for train availability, updates train details, and ensures role-based access for users and admins. The backend is built using **Node.js**, **Express.js**, and **MySQL**.
 
 ## Features
@@ -34,10 +32,9 @@ You need to create a `.env` file in the root of your project with the following 
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
+DB_PASSWORD=Abhi@9001
 DB_NAME=irctc_db
-JWT_SECRET=your_jwt_secret
-API_KEY=your_admin_api_key
+JWT_SECRET=Abhishek
 ```
 
 ### Installation
