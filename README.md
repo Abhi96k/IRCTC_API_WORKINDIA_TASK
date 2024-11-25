@@ -308,4 +308,4 @@ Feel free to fork the repository and make your contributions via pull requests. 
 
 # photos of the project
 
-![Project Screenshot](WorkIndia_Task_IRCTC\Photo\creating_database.png)
+![Project Screenshot](./WorkIndia_Task_IRCTC/Photo/creating_database.png)
