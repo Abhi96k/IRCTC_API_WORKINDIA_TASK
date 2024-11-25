@@ -2,17 +2,73 @@
 
 This project is a **Railway Management System** designed to simulate key functionalities of the IRCTC system. The system enables train seat bookings, checks for train availability, updates train details, and ensures role-based access for users and admins. The backend is built using **Node.js**, **Express.js**, and **MySQL**.
 
+---
+
 ## Features
 
-- User registration and login
-- JWT-based authentication for secure access
-- Check available trains between source and destination
-- Book train seats with race condition handling
-- Admin functionalities: add new trains, update seat availability, etc.
-- Role-based access (admin/user)
-- Error handling and input validation
+- **User-Friendly Interface**: Easy-to-use API endpoints for seamless user interactions.
+- **User Authentication**:
+  - JWT-based authentication for secure access.
+  - Password encryption using bcrypt for enhanced security.
+- **Train Management**:
+  - View trains available between specific source and destination routes.
+  - Admin functionalities to add, update, or remove trains.
+- **Seat Booking System**:
+  - Real-time seat booking with race condition handling to ensure data consistency.
+  - Booking history accessible to users.
+- **Role-Based Access**:
+  - Separate features for users and admins to maintain system integrity.
+  - Admins can update seat availability, add trains, and more.
+- **Error Handling and Input Validation**:
+  - Comprehensive error responses for invalid inputs or actions.
+  - Validation of train details and user data.
+- **Database Efficiency**:
+  - Optimized database schema to handle a large number of trains and bookings.
+  - Referential integrity with foreign key constraints.
+- **Modular Codebase**:
+  - Clean and scalable code structure with a separation of concerns.
+  - Use of middleware for reusable logic like authentication.
 
 ---
+
+## Additional Features (New)
+
+- **Enhanced Security**:
+  - API key-based admin access for critical operations.
+  - Strict authentication policies to prevent unauthorized access.
+- **Automated Email Notifications**:
+  - Notify users of successful bookings via email.
+  - Admin notifications for critical updates (optional integration with services like SendGrid or Nodemailer).
+- **Search Functionality**:
+  - Search trains by source, destination, or train number.
+  - Filter trains based on seat availability.
+- **Booking Cancellation**:
+  - Allow users to cancel bookings with a refund policy.
+  - Update seat availability dynamically upon cancellation.
+- **Analytics Dashboard (Admin Feature)**:
+  - View booking statistics, popular routes, and user activity logs.
+  - Insights into seat utilization and booking trends.
+- **Payment Gateway Integration**:
+  - Simulated payment system for real-world experience.
+  - Future-ready for integration with payment APIs like Razorpay, Stripe, or PayPal.
+- **Localization Support**:
+  - API support for multiple languages (e.g., Hindi, English) for a broader user base.
+- **API Documentation**:
+  - Comprehensive Swagger-based documentation for all endpoints.
+
+---
+
+## Project Setup
+
+### Prerequisites
+
+To run this project, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) (v14 or later)
+- [MySQL](https://www.mysql.com/) (Database setup)
+- [Postman](https://www.postman.com/) (for API testing)
+- (Optional) Email service (e.g., [SendGrid](https://sendgrid.com/))
+
 
 ## Project Setup
 
