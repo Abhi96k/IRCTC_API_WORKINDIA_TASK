@@ -41,8 +41,8 @@ JWT_SECRET=Abhishek
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/ujjawalkumar131/IRCTC_API_WorkIndia.git
-   cd irctc-railway-management
+   git clone https://github.com/Abhi96k/IRCTC_API_WORKINDIA_TASK.git
+   cd IRCTC_API_WORKINDIA_TASK
    ```
 2. Install all necessary dependencies using npm:
 
